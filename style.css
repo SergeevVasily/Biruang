@@ -143,3 +143,45 @@ img{
     .header-phone{
         padding-top: 8px;
     }
+
+    .header-bottom{
+        padding: 10px 0;
+    }
+
+    .menu{
+        float: left;
+    }
+
+    .search-block{
+        float: left;
+        margin-top: -3px;
+    }
+        .search-btn{
+            float: left;
+            margin: 5px 0 0 0;
+        }
+
+        .search{
+            float: left;
+            font-size: 0.875em;
+            color: #7e7f84;
+            border: none;
+            line-height: 1.4;
+        }
+
+
+    .menu li{
+        float: left;
+        text-transform: uppercase;
+        margin-right: 30px;
+        font-size: 0.875em;
+    }
+
+.menu li a{
+    color: #7e7f84;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: #f45a40;
+}
+
