@@ -185,3 +185,36 @@ img{
     color: #f45a40;
 }
 
+.my-slider {
+    position: relative;
+    overflow: auto;
+}
+.my-slider li {
+    list-style: none;
+}
+.my-slider ul li {
+    position: relative;
+    color: #f45a40;
+}
+.my-slider ul li h2{
+    position: absolute;
+    top: 220px;
+    left: 30px;
+    font-size: 3.6875em;
+    font-weight: 600;
+    line-height: 1.1;
+}
+.my-slider ul li p{
+    position: absolute;
+    top: 370px;
+    left: 30px;
+    font-size: 0.875em;
+}
+
+
+.unslider-nav{
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
+}
