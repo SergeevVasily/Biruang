@@ -220,7 +220,7 @@ img{
 }
 
 .block3main{
-
+    margin-bottom: 50px;
 }
 
 .block3main article{
@@ -245,4 +245,79 @@ img{
 }
 .block3main article p{
     font-size: 0.875em;
+}
+
+.block4-section{
+    margin-bottom: 60px;
+}
+    .block4-section>h2{
+        font-family: 'Roboto-Condensed', sans-serif;
+        text-align: center;
+        color: #67686d;
+        font-size: 1.375em;
+        margin-bottom: 30px;
+
+    }
+
+    .block4-main{
+
+    }
+
+.block4-main article{
+    width: 23%;
+    margin-left: 2.6%;
+    float:left;
+
+}
+
+.block4-main article:first-child{
+    margin-left: 0;
+}
+
+.block4-main article img{
+    display: block;
+    margin: 0 auto 20px auto;
+
+}
+
+.block4-main-content{
+    padding: 20px 20px 0 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.block4-main-content h2{
+    color: #67686d;
+    font-size: 1.125em;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+ 
+}
+
+.block4-main-content h3{
+    color: #67686d;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.block4-main-content p {
+    font-size: 0.625em;
+    margin-bottom: 15px;
+}
+
+.price{
+    float: left;
+}
+
+.basket-btn{
+    float: right;
+}
+
+p.price-basket{
+    border-top: 1px solid #eee;
+    font-size: 0.875em;
+    color: #f45a40;
+    padding: 15px 0;
+    margin-bottom: 0;
 }
